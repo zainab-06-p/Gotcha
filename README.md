@@ -1,12 +1,3 @@
----
-title: Gotcha AI Candidate Ranking
-emoji: 🎯
-colorFrom: purple
-colorTo: indigo
-sdk: docker
-pinned: false
-license: mit
----
 
 # 🎯 Gotcha — Corroboration-Based Candidate Discovery & Ranking Engine
 
@@ -83,20 +74,19 @@ See [Gotcha_Architecture.md](./Gotcha_Architecture.md) for the full technical de
 ### Two-Track Scoring System
 
 ```
-Track 1 (Deterministic, no LLM)          Track 2 (LLM-Enhanced, top 300 only)
-├── Hard disqualifier pre-filter (8 rules) ├── Per-role LLM extraction (Gemini Flash)
-├── Skill-JD fuzzy match          (0.25)  ├── Narrative credibility scoring
-├── Skill trust scoring            (0.20)  ├── Domain coherence scoring
-├── Career TF-IDF relevance        (0.18)  └── Experience impact scoring
+Track 1 (Deterministic)                  Post-scoring
+├── Hard disqualifier pre-filter (8 rules) → Archetype clustering (K-Means, 8 clusters)
+├── Skill-JD fuzzy match          (0.25)  → Redirect detection
+├── Skill trust scoring            (0.20)  → Final ranking (top 100)
+├── Career TF-IDF relevance        (0.18)
 ├── Behavioral signals             (0.10)
-├── YoE fit scoring                (0.10)  → Merge: 50/50 blend (Track1 + Track2)
-├── Feasibility                    (0.10)  → Archetype clustering (K-Means, 8 clusters)
-├── Data confidence                (0.05)  → Redirect detection
-└── Pedigree (capped)              (0.02)  → Final ranking (top 100)
+├── YoE fit scoring                (0.10)
+├── Feasibility                    (0.10)
+├── Data confidence                (0.05)
+└── Pedigree (capped)              (0.02)
 ```
 
-**Track 1** produces a valid submission with zero LLM calls.  
-**Track 2** refines the top 300 candidates with deeper analysis (~900 LLM calls, pre-computation only).
+**Fully deterministic** — no external API calls required. Runs offline in under 5 minutes.
 
 ### Hard Disqualifier Rules (applied before scoring)
 
@@ -125,32 +115,17 @@ Candidates failing any of these are capped to ≤15% of their score or zeroed:
 
 ---
 
-## Environment Variables (Track 2 LLM)
-
-Track 2 is optional — the pipeline runs fully offline without it. To enable Gemini-enhanced reranking:
-
-```bash
-export GEMINI_API_KEY=your_api_key_here
-# On Windows:
-set GEMINI_API_KEY=your_api_key_here
-```
-
-Without this key, the pipeline automatically falls back to Track 1 deterministic scores (no crash, no degraded output format).
-
----
-
 ## Tech Stack
 
 | Layer | Choice |
 |-------|--------|
 | Scoring Engine | Python + numpy + scikit-learn |
 | Skill Matching | rapidfuzz + synonym dictionary (`data/skill_synonyms.json`) |
-| LLM (Track 2) | Gemini 2.0 Flash (pre-computation only, optional) |
 | Demo UI | Streamlit + Plotly |
 | Charts | Plotly (radar, bar, histogram, scatter) |
 | Data | pandas DataFrames |
 
-**No exotic dependencies.** No graph databases, no FAISS indexes, no Docker required.
+**No exotic dependencies.** No graph databases, no FAISS indexes, no external APIs required.
 
 ---
 
@@ -213,7 +188,6 @@ gotcha/
 
 ## AI Tools Declaration
 
-- **Gemini 2.0 Flash** — Used for Track 2 candidate extraction and JD parsing (pre-computation only; ranking itself runs offline with no network)
 - **Claude** — Architecture discussion and code review
 
 ---
@@ -223,7 +197,6 @@ gotcha/
 - Processes a representative sample (3,000–5,000 candidates) for the PoC. Full 100K is the same architecture, just a longer batch job.
 - Learned reranker (Section 9 of architecture doc) is designed but not trained — insufficient labeled outcome history in the dataset.
 - Education tier is deliberately down-weighted based on empirical observation, not ideology.
-- Track 2 LLM enhancement is skipped for candidates with `final_score < 0.05` or flagged as honeypots.
 
 ---
 
