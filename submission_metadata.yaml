@@ -12,10 +12,10 @@ primary_contact:
 team_members:
   - name: Zainab Pirjade
     email: zainabpirjade@gmail.com
-    role: Full Stack and ML Engineer
+    role: ML Engineer
   - name: Adi Inamdar
     email: adiinamdar888@gmail.com
-    role: Full Stack and ML Engineer
+    role: Full Stack
 
 github_repo: "https://github.com/zainab-06-p/Gotcha"
 
