@@ -181,7 +181,7 @@ gotcha/
 - **Output:** `outputs/team_infinity_and_beyond.csv` — 100 ranked candidates
 - **Format:** `candidate_id, rank, score, reasoning`
 - **Validated with:** `python validate_submission.py outputs/team_infinity_and_beyond.csv`
-- **Team ID:** `team_infinity_and_beyond`
+- **Team ID:** `Infinity and Beyond`
 
 ---
 
