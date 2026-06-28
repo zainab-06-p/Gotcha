@@ -171,7 +171,6 @@ gotcha/
 ├── tests/                  # Unit tests
 ├── requirements.txt
 ├── submission_metadata.yaml
-└── Gotcha_Architecture.md  # Full technical deep-dive
 ```
 
 ---
