@@ -3,9 +3,7 @@ title: Gotcha AI Candidate Ranking
 emoji: 🎯
 colorFrom: purple
 colorTo: indigo
-sdk: streamlit
-sdk_version: "1.35.0"
-app_file: app/streamlit_app.py
+sdk: docker
 pinned: false
 license: mit
 ---
