@@ -2,7 +2,7 @@
 title: Gotcha AI Candidate Ranking
 emoji: 🎯
 colorFrom: purple
-colorTo: teal
+colorTo: indigo
 sdk: streamlit
 sdk_version: "1.35.0"
 app_file: app.py
