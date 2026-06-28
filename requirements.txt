@@ -1,0 +1,36 @@
+# Gotcha — Dependencies
+# All packages required to run the Gotcha ranking pipeline and Streamlit demo UI
+# Generated for: Python 3.10+ | Tested on Python 3.11
+
+# ── Core Data Processing ────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── Skill Matching ──────────────────────────────────────────────────────────
+rapidfuzz>=3.0.0
+
+# ── Text / ML Processing ────────────────────────────────────────────────────
+scikit-learn>=1.3.0
+
+# ── LLM (Track 2 — optional, only for pre-computation)
+# If GEMINI_API_KEY is not set, the pipeline falls back to Track 1 scores.
+# The package must still be installed even if unused at runtime.
+google-generativeai>=0.5.0
+
+# ── Sentence Embeddings (Track 2 narrative credibility)
+# NOTE: This pulls in torch (~800 MB). Pre-install torch separately if on CPU-only:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+sentence-transformers>=2.2.0
+
+# ── Document Parsing (job_description.docx) ─────────────────────────────────
+python-docx>=0.8.11
+
+# ── Frontend / Demo UI ───────────────────────────────────────────────────────
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+tqdm>=4.65.0
+pyyaml>=6.0
+requests>=2.31.0
+typing-extensions>=4.7.0

@@ -1,0 +1,51 @@
+candidate_id,rank,score,reasoning
+CAND_0000038,1,0.4069,"6yr Java Developer @ Swiggy; skilled in Weaviate; actively looking; concern: based in Coimbatore, Tamil Nadu, open to relocating to Pune/Noida."
+CAND_0000048,2,0.3932,9yr Mobile Developer @ CRED; actively looking; concern: 120-day notice period.
+CAND_0000043,3,0.2801,Disqualified — computer vision specialist with no NLP/IR exposure (also: NON_ML_TITLE).
+CAND_0000031,4,0.2785,Disqualified — non ml title.
+CAND_0000032,5,0.2753,Disqualified — computer vision specialist with no NLP/IR exposure.
+CAND_0000015,6,0.048,Disqualified — non ml title.
+CAND_0000014,7,0.0383,Disqualified — computer vision specialist with no NLP/IR exposure (also: NON_ML_TITLE).
+CAND_0000001,8,0.0355,"Disqualified — cv specialist partial (also: NON_ML_TITLE; based outside India, not willing to relocate)."
+CAND_0000044,9,0.0301,Disqualified — non ml title.
+CAND_0000010,10,0.0299,"Disqualified — computer vision specialist with no NLP/IR exposure (also: NON_ML_TITLE; based outside India, not willing to relocate; YOE_LOW)."
+CAND_0000021,11,0.0271,Disqualified — non ml title (also: YOE_HIGH).
+CAND_0000025,12,0.0241,Disqualified — non ml title.
+CAND_0000035,13,0.0211,Disqualified — non ml title (also: YOE_LOW).
+CAND_0000027,14,0.0179,Disqualified — non ml title (also: entire career at IT services only; YOE_LOW).
+CAND_0000023,15,0.0124,"Disqualified — non ml title (also: based outside India, not willing to relocate; YOE_LOW)."
+CAND_0000007,16,0.007,Disqualified — non ml title.
+CAND_0000020,17,0.0068,Disqualified — non ml title.
+CAND_0000024,18,0.0068,Disqualified — non ml title (also: entire career at IT services only).
+CAND_0000005,19,0.0066,Disqualified — non ml title.
+CAND_0000016,20,0.0065,Disqualified — non ml title.
+CAND_0000045,21,0.0064,Disqualified — non ml title.
+CAND_0000046,22,0.0064,Disqualified — non ml title.
+CAND_0000026,23,0.0063,Disqualified — non ml title.
+CAND_0000033,24,0.0062,Disqualified — non ml title.
+CAND_0000011,25,0.0061,Disqualified — non ml title (also: YOE_LOW).
+CAND_0000036,26,0.006,Disqualified — non ml title.
+CAND_0000029,27,0.0059,Disqualified — non ml title.
+CAND_0000002,28,0.0058,Disqualified — non ml title.
+CAND_0000030,29,0.0056,Disqualified — non ml title.
+CAND_0000018,30,0.0055,Disqualified — non ml title (also: VISION_ONLY).
+CAND_0000049,31,0.0054,"Disqualified — non ml title (also: based outside India, not willing to relocate)."
+CAND_0000006,32,0.0051,Disqualified — non ml title.
+CAND_0000017,33,0.0047,Disqualified — non ml title.
+CAND_0000041,34,0.0044,Disqualified — non ml title (also: YOE_HIGH).
+CAND_0000050,35,0.0043,Disqualified — non ml title (also: YOE_HIGH).
+CAND_0000037,36,0.0042,"Disqualified — non ml title (also: based outside India, not willing to relocate; YOE_HIGH)."
+CAND_0000034,37,0.0036,Disqualified — non ml title (also: YOE_HIGH).
+CAND_0000039,38,0.0027,Disqualified — non ml title (also: YOE_LOW).
+CAND_0000004,39,0.002,Disqualified — non ml title (also: YOE_LOW).
+CAND_0000008,40,0.0019,Disqualified — non ml title (also: entire career at IT services only; YOE_LOW).
+CAND_0000042,41,0.0019,Disqualified — non ml title (also: VISION_ONLY).
+CAND_0000019,42,0.0017,Disqualified — non ml title (also: VISION_ONLY).
+CAND_0000009,43,0.0015,"Disqualified — non ml title (also: based outside India, not willing to relocate; VISION_ONLY)."
+CAND_0000013,44,0.001,"Disqualified — non ml title (also: based outside India, not willing to relocate; YOE_LOW)."
+CAND_0000003,45,0.0008,"Disqualified — non ml title (also: entire career at IT services only; based outside India, not willing to relocate; YOE_LOW)."
+CAND_0000012,46,0.0008,Disqualified — non ml title (also: YOE_LOW).
+CAND_0000040,47,0.0008,Disqualified — non ml title (also: YOE_LOW).
+CAND_0000047,48,0.0008,Disqualified — non ml title (also: entire career at IT services only; YOE_LOW).
+CAND_0000022,49,0.0003,"Disqualified — non ml title (also: based outside India, not willing to relocate; YOE_LOW; VISION_ONLY)."
+CAND_0000028,50,0.0003,Disqualified — non ml title (also: entire career at IT services only; YOE_LOW; VISION_ONLY).

@@ -1,0 +1,75 @@
+# Redrob Hackathon — Submission Metadata
+# Gotcha — Corroboration-Based Candidate Discovery & Ranking Engine
+# Team: Infinity and Beyond
+
+team_name: "Infinity and Beyond"
+
+primary_contact:
+  name: Zainab Pirjade
+  email: zainabpirjade@gmail.com
+  phone: +91-9850919306
+
+team_members:
+  - name: Zainab Pirjade
+    email: zainabpirjade@gmail.com
+    role: Full Stack and ML Engineer
+  - name: Adi Inamdar
+    email: adiinamdar888@gmail.com
+    role: Full Stack and ML Engineer
+
+github_repo: "https://github.com/zainab-06-p/Gotcha"
+
+sandbox_link: "https://huggingface.co/spaces/zpsajst/Gotcha-ranker"
+
+reproduce_command: "python scripts/rank.py --candidates /path/to/candidates.jsonl --output ./outputs/team_infinity_and_beyond.csv"
+
+compute:
+  platform: "Windows 11"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+  ranking_runtime_minutes: 5
+  note: "Track 2 LLM enhancement is optional pre-computation. Core ranking (Track 1) runs fully offline in under 5 minutes."
+
+ai_tools_used:
+  - "Gemini 2.0 Flash"
+  - "Claude"
+
+ai_usage_summary: |
+  Used Gemini 2.0 Flash for Track 2 candidate extraction (per-role analysis
+  and narrative scoring) and JD parsing — pre-computation only. No LLM calls
+  during ranking/inference. Used Claude for architecture discussion and code review.
+
+methodology_summary: |
+  Two-track corroboration-based ranker targeting: Senior AI Engineer, Redrob AI.
+  
+  Hard disqualifiers (pre-filter): 8 strict rules eliminate non-engineering roles
+  (Mobile, QA, Java, DevOps), IT-services-only backgrounds, wrong seniority, and
+  keyword stuffers before any scoring runs.
+  
+  Track 1 (deterministic, no LLM): 8-component scoring — skill-JD fuzzy match
+  (rapidfuzz + synonym dict), assessment-backed trust scores, TF-IDF career-description
+  relevance, YoE fit scoring, behavioral signals, feasibility, data confidence,
+  and capped pedigree. Includes honeypot detection for title/description mismatches.
+  
+  Track 2 (LLM-enhanced, top 300 only): per-role extraction and narrative credibility
+  scoring via Gemini 2.0 Flash. Merged 50/50 for final ranking. Runtime ~2-5 minutes
+  for 5K candidates on CPU.
+  
+  Offline-safe: Track 1 runs with zero network calls. Track 2 falls back gracefully
+  to deterministic scores if GEMINI_API_KEY is absent.
+  
+  Archetype clustering (K-Means, 8 clusters) groups the candidate pool by role archetype.
+  Redirect detection identifies high-quality candidates who mismatch the JD but fit other roles.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
