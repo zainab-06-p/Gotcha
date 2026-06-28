@@ -1,51 +1,101 @@
 candidate_id,rank,score,reasoning
-CAND_0000038,1,0.4069,"6yr Java Developer @ Swiggy; skilled in Weaviate; actively looking; concern: based in Coimbatore, Tamil Nadu, open to relocating to Pune/Noida."
-CAND_0000048,2,0.3932,9yr Mobile Developer @ CRED; actively looking; concern: 120-day notice period.
-CAND_0000043,3,0.2801,Disqualified — computer vision specialist with no NLP/IR exposure (also: NON_ML_TITLE).
-CAND_0000031,4,0.2785,Disqualified — non ml title.
-CAND_0000032,5,0.2753,Disqualified — computer vision specialist with no NLP/IR exposure.
-CAND_0000015,6,0.048,Disqualified — non ml title.
-CAND_0000014,7,0.0383,Disqualified — computer vision specialist with no NLP/IR exposure (also: NON_ML_TITLE).
-CAND_0000001,8,0.0355,"Disqualified — cv specialist partial (also: NON_ML_TITLE; based outside India, not willing to relocate)."
-CAND_0000044,9,0.0301,Disqualified — non ml title.
-CAND_0000010,10,0.0299,"Disqualified — computer vision specialist with no NLP/IR exposure (also: NON_ML_TITLE; based outside India, not willing to relocate; YOE_LOW)."
-CAND_0000021,11,0.0271,Disqualified — non ml title (also: YOE_HIGH).
-CAND_0000025,12,0.0241,Disqualified — non ml title.
-CAND_0000035,13,0.0211,Disqualified — non ml title (also: YOE_LOW).
-CAND_0000027,14,0.0179,Disqualified — non ml title (also: entire career at IT services only; YOE_LOW).
-CAND_0000023,15,0.0124,"Disqualified — non ml title (also: based outside India, not willing to relocate; YOE_LOW)."
-CAND_0000007,16,0.007,Disqualified — non ml title.
-CAND_0000020,17,0.0068,Disqualified — non ml title.
-CAND_0000024,18,0.0068,Disqualified — non ml title (also: entire career at IT services only).
-CAND_0000005,19,0.0066,Disqualified — non ml title.
-CAND_0000016,20,0.0065,Disqualified — non ml title.
-CAND_0000045,21,0.0064,Disqualified — non ml title.
-CAND_0000046,22,0.0064,Disqualified — non ml title.
-CAND_0000026,23,0.0063,Disqualified — non ml title.
-CAND_0000033,24,0.0062,Disqualified — non ml title.
-CAND_0000011,25,0.0061,Disqualified — non ml title (also: YOE_LOW).
-CAND_0000036,26,0.006,Disqualified — non ml title.
-CAND_0000029,27,0.0059,Disqualified — non ml title.
-CAND_0000002,28,0.0058,Disqualified — non ml title.
-CAND_0000030,29,0.0056,Disqualified — non ml title.
-CAND_0000018,30,0.0055,Disqualified — non ml title (also: VISION_ONLY).
-CAND_0000049,31,0.0054,"Disqualified — non ml title (also: based outside India, not willing to relocate)."
-CAND_0000006,32,0.0051,Disqualified — non ml title.
-CAND_0000017,33,0.0047,Disqualified — non ml title.
-CAND_0000041,34,0.0044,Disqualified — non ml title (also: YOE_HIGH).
-CAND_0000050,35,0.0043,Disqualified — non ml title (also: YOE_HIGH).
-CAND_0000037,36,0.0042,"Disqualified — non ml title (also: based outside India, not willing to relocate; YOE_HIGH)."
-CAND_0000034,37,0.0036,Disqualified — non ml title (also: YOE_HIGH).
-CAND_0000039,38,0.0027,Disqualified — non ml title (also: YOE_LOW).
-CAND_0000004,39,0.002,Disqualified — non ml title (also: YOE_LOW).
-CAND_0000008,40,0.0019,Disqualified — non ml title (also: entire career at IT services only; YOE_LOW).
-CAND_0000042,41,0.0019,Disqualified — non ml title (also: VISION_ONLY).
-CAND_0000019,42,0.0017,Disqualified — non ml title (also: VISION_ONLY).
-CAND_0000009,43,0.0015,"Disqualified — non ml title (also: based outside India, not willing to relocate; VISION_ONLY)."
-CAND_0000013,44,0.001,"Disqualified — non ml title (also: based outside India, not willing to relocate; YOE_LOW)."
-CAND_0000003,45,0.0008,"Disqualified — non ml title (also: entire career at IT services only; based outside India, not willing to relocate; YOE_LOW)."
-CAND_0000012,46,0.0008,Disqualified — non ml title (also: YOE_LOW).
-CAND_0000040,47,0.0008,Disqualified — non ml title (also: YOE_LOW).
-CAND_0000047,48,0.0008,Disqualified — non ml title (also: entire career at IT services only; YOE_LOW).
-CAND_0000022,49,0.0003,"Disqualified — non ml title (also: based outside India, not willing to relocate; YOE_LOW; VISION_ONLY)."
-CAND_0000028,50,0.0003,Disqualified — non ml title (also: entire career at IT services only; YOE_LOW; VISION_ONLY).
+CAND_0071974,1,0.7006,"7yr Senior AI Engineer @ Netflix; skilled in Learning to Rank, Weaviate, Pinecone; actively looking; concern: based in Vizag, Andhra Pradesh, not willing to relocate."
+CAND_0077337,2,0.6948,"7yr Staff Machine Learning Engineer @ Paytm; skilled in Semantic Search, Pinecone, Information Retrieval; actively looking; concern: based in Kochi, Kerala, open to relocating to Pune/Noida."
+CAND_0002025,3,0.6924,"5yr Senior AI Engineer @ Apple; skilled in FAISS, Weaviate, Sentence Transformers; actively looking; concern: based in Trivandrum, Kerala, not willing to relocate."
+CAND_0081846,4,0.6876,"6yr Lead AI Engineer @ Razorpay; skilled in Information Retrieval, Learning to Rank, Elasticsearch; actively looking; concern: based in Jaipur, Rajasthan, open to relocating to Pune/Noida."
+CAND_0018499,5,0.6836,"7yr Senior Machine Learning Engineer @ Zomato; skilled in Weaviate, Recommendation Systems, Pinecone; actively looking."
+CAND_0079387,6,0.6791,"6yr AI Engineer @ Microsoft; skilled in Recommendation Systems, Sentence Transformers, Learning to Rank; actively looking; concern: based in Trivandrum, Kerala, not willing to relocate."
+CAND_0008425,7,0.676,"7yr Senior NLP Engineer @ Ola; skilled in Learning to Rank, Qdrant, Sentence Transformers; actively looking; concern: based in Kolkata, West Bengal, not willing to relocate."
+CAND_0011687,8,0.6709,"7yr Senior NLP Engineer @ Niramai; skilled in FAISS, Embeddings, Weaviate; actively looking; concern: based in Indore, Madhya Pradesh, not willing to relocate."
+CAND_0088025,9,0.6703,"8yr Staff Machine Learning Engineer @ Yellow.ai; skilled in Pinecone, RAG, Elasticsearch; actively looking; concern: based in Jaipur, Rajasthan, not willing to relocate."
+CAND_0086022,10,0.6701,"5yr Senior Applied Scientist @ Sarvam AI; skilled in Recommendation Systems, Elasticsearch, Pinecone; actively looking; concern: based in Kolkata, West Bengal, open to relocating to Pune/Noida."
+CAND_0052682,11,0.6663,"6yr NLP Engineer @ Aganitha; skilled in Semantic Search, FAISS, Embeddings; actively looking; concern: last active 92 days ago, based in Vizag, Andhra Pradesh, not willing to relocate."
+CAND_0046064,12,0.6652,"8yr Senior NLP Engineer @ Salesforce; skilled in Pinecone, Elasticsearch, Semantic Search; actively looking; concern: based in Coimbatore, Tamil Nadu, not willing to relocate."
+CAND_0070398,13,0.6651,"7yr Machine Learning Engineer @ Genpact AI; skilled in RAG, FAISS, Embeddings; actively looking; concern: 120-day notice period, based in Kochi, Kerala, open to relocating to Pune/Noida."
+CAND_0024620,14,0.6644,"5yr AI Engineer @ PharmEasy; skilled in Semantic Search, Information Retrieval, Recommendation Systems; actively looking; concern: based in New York, open to relocating to India."
+CAND_0098846,15,0.6637,"7yr AI Engineer @ upGrad; skilled in Qdrant, Recommendation Systems, Hugging Face Transformers; actively looking; concern: based in Indore, Madhya Pradesh, open to relocating to Pune/Noida."
+CAND_0033861,16,0.6629,"8yr Senior NLP Engineer @ Mad Street Den; skilled in Weaviate, Elasticsearch, Pinecone; 30-day notice; concern: last active 132 days ago, based in Vizag, Andhra Pradesh, not willing to relocate."
+CAND_0080766,17,0.6606,"8yr Staff Machine Learning Engineer @ Salesforce; skilled in Information Retrieval Systems, Elasticsearch, Milvus; immediate; concern: based in Coimbatore, Tamil Nadu, open to relocating to Pune/Noida."
+CAND_0027691,18,0.66,"6yr NLP Engineer @ Haptik; skilled in Recommendation Systems, Weaviate, Embeddings; actively looking."
+CAND_0037566,19,0.6595,"6yr Machine Learning Engineer @ LinkedIn; skilled in Pinecone, Elasticsearch, Time Series; actively looking."
+CAND_0049538,20,0.6569,"5yr Applied ML Engineer @ Saarthi.ai; skilled in Learning to Rank, Milvus, Embeddings; active GitHub (90); concern: based in Jaipur, Rajasthan, not willing to relocate."
+CAND_0005260,21,0.6565,"5yr Senior NLP Engineer @ Netflix; skilled in Information Retrieval, Semantic Search, RAG."
+CAND_0083307,22,0.656,"7yr Search Engineer @ CRED; skilled in Embeddings, Pinecone, Weaviate; actively looking; concern: 120-day notice period, last active 99 days ago."
+CAND_0028793,23,0.6552,"7yr Search Engineer @ Google; skilled in Embeddings, Learning to Rank, Information Retrieval; actively looking; concern: 120-day notice period, based in Trivandrum, Kerala, open to relocating to Pune/Noida."
+CAND_0015578,24,0.6549,"5yr AI Engineer @ Zoho; skilled in Embeddings, Sentence Transformers, Pinecone; actively looking."
+CAND_0044855,25,0.6549,"6yr Senior Data Scientist @ Flipkart; skilled in Learning to Rank, Information Retrieval, Pinecone; retrieval/ranking work evidenced in most recent role; concern: based in Coimbatore, Tamil Nadu, open to relocating to Pune/Noida."
+CAND_0065195,26,0.6547,"5yr Search Engineer @ CRED; skilled in Elasticsearch, Qdrant, Learning to Rank; actively looking; concern: based in Kolkata, West Bengal, not willing to relocate."
+CAND_0008295,27,0.6527,"6yr AI Research Engineer @ Razorpay; skilled in Weaviate, BM25, Python; actively looking."
+CAND_0069905,28,0.6476,"6yr Applied ML Engineer @ Sarvam AI; skilled in Recommendation Systems, Sentence Transformers, Weaviate; actively looking; concern: based in Bhubaneswar, Odisha, open to relocating to Pune/Noida."
+CAND_0020877,29,0.6465,"5yr Applied ML Engineer @ CRED; skilled in Elasticsearch, Information Retrieval, Weaviate; active GitHub (74)."
+CAND_0042100,30,0.6463,"7yr Machine Learning Engineer @ Freshworks; skilled in Elasticsearch, Learning to Rank, Recommendation Systems; actively looking; concern: last active 97 days ago, based in Singapore, open to relocating to India."
+CAND_0093912,31,0.6446,"5yr Senior Data Scientist @ Razorpay; skilled in Milvus, Embeddings, Recommendation Systems; actively looking; concern: based in Chandigarh, Chandigarh, not willing to relocate."
+CAND_0050454,32,0.6441,"6yr AI Engineer @ Rephrase.ai; skilled in FAISS, Qdrant, PyTorch; actively looking."
+CAND_0066376,33,0.6436,"5yr Applied ML Engineer @ Dream11; skilled in Recommendation Systems, Learning to Rank, Information Retrieval; actively looking."
+CAND_0010149,34,0.6402,"6yr ML Engineer @ Glance; skilled in Milvus, Learning to Rank, Elasticsearch; actively looking."
+CAND_0068351,35,0.6375,"6yr Lead AI Engineer @ Sarvam AI; skilled in Qdrant, Elasticsearch, Ranking Systems; immediate."
+CAND_0025640,36,0.6368,"5yr AI Research Engineer @ HCL; skilled in Semantic Search, Information Retrieval, FAISS; actively looking; concern: based in Jaipur, Rajasthan, not willing to relocate."
+CAND_0007411,37,0.6352,"8yr Senior Machine Learning Engineer @ Amazon; skilled in Information Retrieval, Pinecone, Learning to Rank; active GitHub (89); concern: inactive for 6 months, based in Kochi, Kerala, open to relocating to Pune/Noida."
+CAND_0051630,38,0.6348,"6yr Machine Learning Engineer @ Razorpay; skilled in Elasticsearch, Embeddings, Recommendation Systems; active GitHub (66); concern: based in Kolkata, West Bengal, not willing to relocate."
+CAND_0091909,39,0.6344,"6yr Machine Learning Engineer @ Rephrase.ai; skilled in Pinecone, Qdrant, Sentence Transformers; actively looking; concern: last active 102 days ago."
+CAND_0060072,40,0.6328,"5yr Staff Machine Learning Engineer @ Amazon; skilled in Sentence Transformers, Milvus, Qdrant; active GitHub (82); concern: last active 155 days ago, based in Indore, Madhya Pradesh, open to relocating to Pune/Noida."
+CAND_0011432,41,0.6324,"7yr Senior Data Scientist @ Amazon; skilled in Elasticsearch, Haystack, MLOps; actively looking; concern: last active 104 days ago."
+CAND_0032216,42,0.6317,"6yr ML Engineer @ upGrad; skilled in Learning to Rank, Information Retrieval, Qdrant; actively looking."
+CAND_0005649,43,0.6315,"7yr Senior Data Scientist @ Sarvam AI; skilled in Recommendation Systems, Semantic Search, Weaviate; actively looking."
+CAND_0039383,44,0.6309,"7yr Applied ML Engineer @ Meesho; skilled in FAISS, Recommendation Systems, Elasticsearch; actively looking; concern: last active 101 days ago."
+CAND_0094056,45,0.6309,"5yr NLP Engineer @ Rephrase.ai; skilled in Pinecone, Milvus, Learning to Rank; active GitHub (64); concern: 120-day notice period."
+CAND_0005538,46,0.63,"5yr Senior AI Engineer @ Adobe; skilled in Information Retrieval Systems, Vector Representations, Deep Learning; actively looking; concern: based in Kolkata, West Bengal, not willing to relocate."
+CAND_0061257,47,0.63,"8yr Staff Machine Learning Engineer @ LinkedIn; skilled in Information Retrieval Systems, PEFT, Haystack; actively looking."
+CAND_0009691,48,0.6293,"6yr Applied ML Engineer @ LinkedIn; skilled in Recommendation Systems, Pinecone, Sentence Transformers; actively looking; concern: 120-day notice period, based in Indore, Madhya Pradesh, open to relocating to Pune/Noida."
+CAND_0087630,49,0.6292,"7yr AI Engineer @ Vedantu; skilled in Elasticsearch, Learning to Rank, Embeddings; 30-day notice; concern: last active 104 days ago."
+CAND_0009024,50,0.6287,"5yr Search Engineer @ Google; skilled in Qdrant, FAISS, Recommendation Systems; actively looking."
+CAND_0050876,51,0.6274,"6yr Applied ML Engineer @ Freshworks; skilled in Qdrant, FAISS, Sentence Transformers; actively looking; concern: based in Kolkata, West Bengal, not willing to relocate."
+CAND_0030031,52,0.6272,"5yr AI Engineer @ Microsoft; skilled in Information Retrieval, RAG, Sentence Transformers; 30-day notice; concern: based in Trivandrum, Kerala, not willing to relocate."
+CAND_0065878,53,0.6268,"7yr Senior Data Scientist @ Niramai; skilled in RAG, Recommendation Systems, scikit-learn; actively looking; concern: last active 97 days ago, based in Trivandrum, Kerala, not willing to relocate."
+CAND_0029367,54,0.6267,"5yr Senior Data Scientist @ Rephrase.ai; skilled in FAISS, Sentence Transformers, RAG; actively looking."
+CAND_0064326,55,0.6246,"7yr Search Engineer @ Sarvam AI; skilled in Milvus, Semantic Search, Weaviate; actively looking."
+CAND_0058688,56,0.6235,"6yr AI Engineer @ Vedantu; skilled in Embeddings, Information Retrieval, Milvus; actively looking; concern: last active 92 days ago, based in Berlin, open to relocating to India."
+CAND_0020350,57,0.6232,"5yr AI Engineer @ Zoho; skilled in FAISS, Sentence Transformers, NLP; actively looking; concern: based in Jaipur, Rajasthan, not willing to relocate."
+CAND_0071939,58,0.6212,"6yr Data Scientist @ Krutrim; skilled in Elasticsearch, Embeddings, Qdrant; actively looking; concern: last active 97 days ago."
+CAND_0006557,59,0.6207,"7yr NLP Engineer @ Paytm; skilled in Elasticsearch, Weaviate, FAISS; actively looking; concern: 120-day notice period, based in Jaipur, Rajasthan, open to relocating to Pune/Noida."
+CAND_0045250,60,0.6202,"6yr Applied ML Engineer @ Rephrase.ai; skilled in Sentence Transformers, Milvus, Embeddings; 15-day notice."
+CAND_0079064,61,0.6198,"5yr Senior Data Scientist @ Niramai; skilled in Semantic Search, Pinecone, Recommendation Systems; actively looking; concern: 120-day notice period."
+CAND_0074735,62,0.6195,"5yr Applied ML Engineer @ Rephrase.ai; skilled in RAG, Weaviate, Information Retrieval; actively looking; concern: last active 92 days ago, based in Chandigarh, Chandigarh, not willing to relocate."
+CAND_0001707,63,0.6191,"5yr Data Scientist @ Vedantu; skilled in Sentence Transformers, FAISS, Weaviate; actively looking; concern: last active 121 days ago."
+CAND_0052827,64,0.6183,"5yr Data Scientist @ Genpact AI; skilled in Semantic Search, RAG, Learning to Rank; active GitHub (56); concern: 120-day notice period, last active 96 days ago."
+CAND_0042029,65,0.618,"6yr Senior Data Scientist @ Flipkart; skilled in RAG, Elasticsearch, Embeddings; active GitHub (78)."
+CAND_0059017,66,0.6178,"6yr AI Research Engineer @ PhonePe; skilled in Sentence Transformers, FAISS, TensorFlow; actively looking; concern: based in Ahmedabad, Gujarat, open to relocating to Pune/Noida."
+CAND_0006418,67,0.6177,"5yr Machine Learning Engineer @ Verloop.io; skilled in Semantic Search, Embeddings, Weaviate; actively looking."
+CAND_0070485,68,0.6154,"6yr Search Engineer @ Saarthi.ai; skilled in FAISS, Recommendation Systems, Information Retrieval; actively looking; concern: 120-day notice period, based in Coimbatore, Tamil Nadu, not willing to relocate."
+CAND_0095528,69,0.6154,"5yr Senior Data Scientist @ Netflix; skilled in Semantic Search, Qdrant, Elasticsearch; actively looking; concern: based in Indore, Madhya Pradesh, not willing to relocate."
+CAND_0081053,70,0.6153,"5yr NLP Engineer @ Glance; skilled in Qdrant, Learning to Rank, Semantic Search; actively looking; concern: based in Chandigarh, Chandigarh, open to relocating to Pune/Noida."
+CAND_0021491,71,0.6152,"6yr AI Research Engineer @ Wysa; skilled in Recommendation Systems, Elasticsearch, scikit-learn; actively looking; concern: based in Bhubaneswar, Odisha, not willing to relocate."
+CAND_0036121,72,0.6146,"5yr ML Engineer @ Wysa; skilled in Embeddings, Information Retrieval, Learning to Rank; actively looking; concern: last active 113 days ago."
+CAND_0024466,73,0.6127,"5yr Search Engineer @ PharmEasy; skilled in Recommendation Systems, Sentence Transformers, Pinecone; actively looking; concern: 120-day notice period, based in Toronto, open to relocating to India."
+CAND_0031143,74,0.6126,"5yr ML Engineer @ Freshworks; skilled in QLoRA, Python, TTS; active GitHub (76); concern: 120-day notice period, based in Bhubaneswar, Odisha, not willing to relocate."
+CAND_0006567,75,0.6122,"7yr Senior AI Engineer @ Meta; skilled in Ranking Systems, Recommendation Systems, scikit-learn; actively looking."
+CAND_0041611,76,0.6122,"6yr Staff Machine Learning Engineer @ Locobuzz; skilled in Qdrant, Weaviate, Sentence Transformers; 30-day notice; concern: inactive for 6 months, based in Austin, open to relocating to India."
+CAND_0060054,77,0.6121,"6yr AI Engineer @ Mad Street Den; skilled in Weaviate, FAISS, Elasticsearch; 15-day notice; concern: last active 103 days ago, based in Jaipur, Rajasthan, open to relocating to Pune/Noida."
+CAND_0067041,78,0.6118,"6yr Data Scientist @ Saarthi.ai; skilled in Milvus, Learning to Rank, Elasticsearch; actively looking; concern: 120-day notice period, last active 103 days ago."
+CAND_0031593,79,0.6106,"7yr Search Engineer @ Genpact AI; skilled in Recommendation Systems, Embeddings, Elasticsearch; actively looking; concern: last active 101 days ago, based in Kolkata, West Bengal, open to relocating to Pune/Noida."
+CAND_0096172,80,0.6103,"5yr NLP Engineer @ Krutrim; skilled in Elasticsearch, Semantic Search, RAG; active GitHub (65)."
+CAND_0031752,81,0.6102,"5yr ML Engineer @ Unacademy; skilled in Weaviate, Qdrant, Learning to Rank; actively looking; concern: 120-day notice period, based in Kolkata, West Bengal, not willing to relocate."
+CAND_0051292,82,0.6083,"5yr Applied ML Engineer @ Freshworks; skilled in FAISS, RAG, Elasticsearch; actively looking; concern: based in Trivandrum, Kerala, not willing to relocate."
+CAND_0027801,83,0.6078,"7yr NLP Engineer @ InMobi; skilled in FAISS, Milvus, Learning to Rank; actively looking; concern: 120-day notice period."
+CAND_0015528,84,0.6071,"7yr Applied ML Engineer @ Krutrim; skilled in Weaviate, Information Retrieval, FAISS; active GitHub (50); concern: based in Coimbatore, Tamil Nadu, not willing to relocate."
+CAND_0068811,85,0.607,"8yr Applied ML Engineer @ Freshworks; skilled in Qdrant, Embeddings, Pinecone; actively looking."
+CAND_0049896,86,0.6067,"7yr Search Engineer @ Unacademy; skilled in Sentence Transformers, Information Retrieval, LangChain; actively looking; concern: based in Vizag, Andhra Pradesh, open to relocating to Pune/Noida."
+CAND_0052706,87,0.6066,"5yr AI Research Engineer @ Swiggy; skilled in Pinecone, Information Retrieval, Weaviate; actively looking; concern: based in Coimbatore, Tamil Nadu, not willing to relocate."
+CAND_0044883,88,0.6064,"6yr AI Engineer @ Mad Street Den; skilled in Embeddings, Semantic Search, BM25; active GitHub (70); concern: based in Berlin, open to relocating to India."
+CAND_0044222,89,0.6061,"7yr AI Engineer @ PolicyBazaar; skilled in Qdrant, Weaviate, Vector Search; actively looking; concern: based in Vizag, Andhra Pradesh, not willing to relocate."
+CAND_0093193,90,0.6052,"7yr Senior Machine Learning Engineer @ Niramai; skilled in Ranking Systems, Qdrant, Information Retrieval Systems; actively looking."
+CAND_0057563,91,0.6043,"6yr NLP Engineer @ Locobuzz; skilled in RAG, Elasticsearch, Deep Learning; retrieval/ranking work evidenced in most recent role; concern: based in Indore, Madhya Pradesh, open to relocating to Pune/Noida."
+CAND_0062247,92,0.6035,"7yr AI Engineer @ Google; skilled in Pinecone, Qdrant, RAG; actively looking; concern: based in Kochi, Kerala, open to relocating to Pune/Noida."
+CAND_0092278,93,0.6032,"6yr Senior NLP Engineer @ Microsoft; skilled in Elasticsearch, Milvus, Semantic Search; retrieval/ranking work evidenced in most recent role; concern: inactive for 7 months, low recruiter response rate (7%)."
+CAND_0058575,94,0.6031,"5yr AI Engineer @ Krutrim; skilled in Recommendation Systems, Pinecone, Sentence Transformers; actively looking."
+CAND_0069248,95,0.6022,"5yr AI Research Engineer @ Unacademy; skilled in FAISS, OpenCV, BentoML; actively looking; concern: 120-day notice period, based in Vizag, Andhra Pradesh, open to relocating to Pune/Noida."
+CAND_0010685,96,0.6004,"6yr NLP Engineer @ Rephrase.ai; skilled in Information Retrieval, Elasticsearch, RAG; actively looking; concern: last active 104 days ago, based in Kolkata, West Bengal, not willing to relocate."
+CAND_0070202,97,0.6003,"5yr Machine Learning Engineer @ BYJU'S; skilled in Embeddings, Qdrant, Learning to Rank; retrieval/ranking work evidenced in most recent role; concern: based in Jaipur, Rajasthan, not willing to relocate."
+CAND_0075574,98,0.5997,"5yr Machine Learning Engineer @ Haptik; skilled in Weaviate, Recommendation Systems, Qdrant; actively looking."
+CAND_0076163,99,0.5997,"6yr NLP Engineer @ Ola; skilled in Weaviate, Semantic Search, Sentence Transformers; actively looking; concern: based in Chandigarh, Chandigarh, not willing to relocate."
+CAND_0024147,100,0.5995,"5yr ML Engineer @ Ola; skilled in Qdrant, Recommendation Systems, Learning to Rank; actively looking; concern: based in Jaipur, Rajasthan, not willing to relocate."
