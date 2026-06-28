@@ -19,7 +19,7 @@ OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 CACHE_DIR = PROCESSED_DATA_DIR / "cache"
 
 # Challenge data paths (adjust if your data is elsewhere)
-CHALLENGE_DATA_DIR = PROJECT_ROOT.parent / "[PUB] India_runs_data_and_ai_challenge" / "[PUB] India_runs_data_and_ai_challenge" / "India_runs_data_and_ai_challenge"
+CHALLENGE_DATA_DIR = PROJECT_ROOT.parent / "[PUB] India_runs_data_and_ai_challenge"
 CANDIDATES_JSONL = CHALLENGE_DATA_DIR / "candidates.jsonl"
 SAMPLE_CANDIDATES_JSON = CHALLENGE_DATA_DIR / "sample_candidates.json"
 JOB_DESCRIPTION_DOCX = CHALLENGE_DATA_DIR / "job_description.docx"
