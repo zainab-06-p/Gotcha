@@ -69,12 +69,11 @@ streamlit run app/streamlit_app.py
 
 ## Architecture Overview
 
-See [Gotcha_Architecture.md](./Gotcha_Architecture.md) for the full technical deep-dive.
 
-### Two-Track Scoring System
+### Track Scoring System
 
 ```
-Track 1 (Deterministic)                  Post-scoring
+Track (Deterministic)                        Post-scoring
 ├── Hard disqualifier pre-filter (8 rules) → Archetype clustering (K-Means, 8 clusters)
 ├── Skill-JD fuzzy match          (0.25)  → Redirect detection
 ├── Skill trust scoring            (0.20)  → Final ranking (top 100)
@@ -100,7 +99,7 @@ Candidates failing any of these are capped to ≤15% of their score or zeroed:
 7. **Too senior** — 15+ YoE applying for a 5-9 YoE role
 8. **No Python** — Hard requirement for this specific role
 
-### 7-Axis Candidate Profile
+### 8-Axis Candidate Profile
 
 | Axis | What it measures | Weight |
 |------|-----------------|--------|
